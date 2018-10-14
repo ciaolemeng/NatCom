@@ -1,0 +1,2 @@
+#!/bin/bash
+cmake -DCMAKE_TOOLCHAIN_FILE=./tools/android-cmake/android.toolchain.cmake -DANDROID_NDK=/data/tools/android-ndk-r11c -DCMAKE_BUILD_TYPE=Release -DVOS=1 -DANDROID_ABI="arm64-v8a" -DANDROID_NATIVE_API_LEVEL="android-21" ../
